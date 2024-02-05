@@ -1,12 +1,12 @@
 {
     "basics": {
         "name": "César Zárate",
-        "label": "Web and Game Developer",
+        "label": "Web and Game Developer determined to build quality and clean solutions.",
         "image": "me.webp",
         "email": "cesarjzo@outlook.com",
         "phone": "(844) 543-4955",
         "url": "https://cesarjzo.dev",
-        "summary": "I'm a 22-year-old proactive programmer always looking for quality and clean solutions. I am passionate about software development. I code every day. Also, I have a good set of soft skills like charisma, communication, organization, and leadership.",
+        "summary": "I'm a 22-year-old proactive and passionate about software development. I code every day. Also, I have a good set of soft skills like charisma, communication, organization, and leadership.",
         "location": {
             "address": null,
             "postalCode": null,
