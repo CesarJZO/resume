@@ -1,0 +1,346 @@
+{
+    "basics": {
+        "name": "César Zárate",
+        "label": "Web and Game Developer",
+        "image": "me.webp",
+        "email": "cesarjzo@outlook.com",
+        "phone": "(844) 543-4955",
+        "url": "https://cesarjzo.dev",
+        "summary": "I'm a 22-year-old proactive programmer always looking for quality and clean solutions. I am passionate about software development. I code every day. Also, I have a good set of soft skills like charisma, communication, organization, and leadership.",
+        "location": {
+            "address": null,
+            "postalCode": null,
+            "city": "Saltillo",
+            "countryCode": "MX",
+            "region": "Coahuila"
+        },
+        "profiles": [
+            {
+                "network": "GitHub",
+                "username": "CesarJZO",
+                "url": "https://github.com/CesarJZO"
+            },
+            {
+                "network": "LinkedIn",
+                "username": "cesarjzo",
+                "url": "https://www.linkedin.com/in/cesarjzo/"
+            }
+        ]
+    },
+    "work": [
+        {
+            "name": "Playstorm Studios",
+            "position": "Gameplay Programmer",
+            "url": "https://playstormstudios.com/",
+            "startDate": "2022-01-15",
+            "endDate": "2023-01-25",
+            "summary": "Developed enemies for the game using state machines, including a fully featured final boss.",
+            "highlights": [
+                "Made a final boss"
+            ]
+        },
+        {
+            "name": "Instituto Tecnológico de Saltillo",
+            "position": "Course Instructor",
+            "url": null,
+            "startDate": "2022-11-01",
+            "endDate": "2023-12-08",
+            "summary": "Taught courses of topics like Git, and game development with Unity, which are not part of the regular curriculum. I also helped students with their projects.",
+            "highlights": [
+                "Git Introduction Workshop",
+                "Unity Introduction Workshop",
+                "Unity for 3D and VR Development Workshop"
+            ]
+        },
+        {
+            "name": "Playstorm Studios",
+            "position": "Game Programming Director",
+            "url": "https://playstormstudios.com/",
+            "startDate": "2023-02-01",
+            "endDate": "2023-11-01",
+            "summary": "Optimized code architecture and performance for a single-player game. Also, I was in charge of the game's development team.",
+            "highlights": [
+                "Made a Dialogue System",
+                "Created Multiple CPU AIs"
+            ]
+        },
+        {
+            "name": "Meow Interactive",
+            "position": "Lead Game Developer",
+            "url": null,
+            "startDate": "2023-02-01",
+            "endDate": "2023-07-30",
+            "summary": "Created a full codebase from scratch for a 3D multiplayer game, including gameplay mechanics, UI, and networking.",
+            "highlights": [
+                "Took part on decision making for the game's design",
+                "Worked with a multidisciplinary team (artists, designers, and other programmers)",
+                "Learned effective communication"
+            ]
+        },
+        {
+            "name": "Playstorm Studios",
+            "position": "Project Manager",
+            "url": "https://playstormstudios.com/",
+            "startDate": "2023-12-11",
+            "endDate": null,
+            "summary": "Had to manage a team of 5 programmers and 3 artists. I was in charge of the game's development and the team's performance.",
+            "highlights": [
+                "Improved the team's performance",
+                "Made long-term planning and design"
+            ]
+        },
+        {
+            "name": "Justia",
+            "position": "Web Services Intern",
+            "url": "https://justia.com/",
+            "startDate": "2024-01-22",
+            "endDate": null,
+            "summary": "Worked on the company's website, including the development of new features and the maintenance of the existing ones. I also worked on the company's internal tools.",
+            "highlights": [
+                "Learned time management"
+            ]
+        }
+    ],
+    "volunteer": [
+        {
+            "organization": "Organization",
+            "position": "Volunteer",
+            "url": "https://organization.com/",
+            "startDate": "2012-01-01",
+            "endDate": "2013-01-01",
+            "summary": "Description…",
+            "highlights": [
+                "Awarded 'Volunteer of the Month'"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "institution": "Instituto Tecnológico de Saltillo",
+            "url": "https://saltillo.tecnm.mx/",
+            "area": "Computer Systems Engineering",
+            "studyType": "Bachelor",
+            "startDate": "2019-08-24",
+            "endDate": null,
+            "score": "92.24",
+            "courses": [
+                "SCD1020 - Object-Oriented Programming",
+                "SCD1027 - Programming Advanced Topics",
+                "AED1026 - Data Structures",
+                "AEB1055 - Web Programming",
+                "AEC1061 - Operating Systems",
+                "SCA1026 - Operating Systems Workshop",
+                "SCD1015 - Languages and Automata",
+                "SCD1016 - Languages and Automata II",
+                "SCC1007 - Software Engineering Fundamentals",
+                "SCD1011 - Software Engineering",
+                "SCG1009 - Software Project Management",
+                "SCC1012 - Artificial Intelligence",
+                "TED-2301 - Big Data",
+                "TED-2302 - Cloud Computing",
+                "TED-2304 - Data Science",
+                "TED-2305 - Mobile Development"
+            ]
+        },
+        {
+            "institution": "Doměstika",
+            "url": "https://www.domestika.org/",
+            "area": "Game Development",
+            "studyType": "Online Course",
+            "startDate": "2021-06-01",
+            "endDate": "2021-12-20",
+            "score": null,
+            "courses": [
+                "Introduction to Unity for 2D Games"
+            ]
+        },
+        {
+            "institution": "Udemy",
+            "url": "https://www.udemy.com/",
+            "area": "Web/Game Development",
+            "studyType": "Online Course",
+            "startDate": "2023-06-01",
+            "endDate": null,
+            "score": null,
+            "courses": [
+                "Unity Dialogue & Quests: Intermediate C# Game Coding",
+                "Learn to build an e-commerce store with .NET, React & Redux",
+                "Developing Apps using React 17 and ASP.NET Core 5"
+            ]
+        },
+        {
+            "institution": "YouTube",
+            "url": "https://www.youtube.com/",
+            "area": "Web/Game Development",
+            "studyType": "Online Course",
+            "startDate": "2022-01-01",
+            "endDate": null,
+            "score": null,
+            "courses": [
+                "Code Monkey - Learn Unity Beginner/Intermediate 2023",
+                "midudev - Astro course with projects",
+                "midudev - CSS course from scratch",
+                "midudev - HTML Course from Scratch: SEO, Semantics, and More"
+            ]
+        }
+    ],
+    "awards": [
+        {
+            "title": "Award",
+            "date": "2014-11-01",
+            "awarder": "Company",
+            "summary": "There is no spoon."
+        }
+    ],
+    "certificates": [
+        {
+            "name": "Certificate",
+            "date": "2021-11-07",
+            "issuer": "Company",
+            "url": "https://certificate.com"
+        }
+    ],
+    "publications": [
+        {
+            "name": "Publication",
+            "publisher": "Company",
+            "releaseDate": "2014-10-01",
+            "url": "https://publication.com",
+            "summary": "Description…"
+        }
+    ],
+    "skills": [
+        {
+            "name": "Game Development",
+            "level": "Expert",
+            "keywords": [
+                "Unity",
+                "C#",
+                "MonoGame"
+            ]
+        },
+        {
+            "name": "Front-end Development",
+            "level": "Advanced",
+            "keywords": [
+                "Astro",
+                "React",
+                "HTML",
+                "CSS",
+                "TypeScript"
+            ]
+        },
+        {
+            "name": "Project Management",
+            "level": "Intermediate",
+            "keywords": [
+                "Agile",
+                "Cascade",
+                "Scrum",
+                "Kanban"
+            ]
+        },
+        {
+            "name": "Back-end Development",
+            "level": "Beginner",
+            "keywords": [
+                "ASP.NET",
+                "Entity Framework",
+                "Express",
+                "PostgreSQL"
+            ]
+        }
+    ],
+    "languages": [
+        {
+            "language": "English",
+            "fluency": "Proficient speaker"
+        },
+        {
+            "language": "Spanish",
+            "fluency": "Native speaker"
+        }
+    ],
+    "interests": [
+        {
+            "name": "Gaming",
+            "keywords": [
+                "Analysis",
+                "Design"
+            ]
+        },
+        {
+            "name": "Music",
+            "keywords": [
+                "Piano"
+            ]
+        },
+        {
+            "name": "Diffusion",
+            "keywords": [
+                "Teaching",
+                "Writing"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "name": "Jorge Ferrétiz",
+            "reference": "Boss"
+        },
+        {
+            "name": "Gabriel Rodriguez",
+            "reference": "Client"
+        }
+    ],
+    "projects": [
+        {
+            "name": "Not Another Platformer, Please",
+            "startDate": "",
+            "endDate": "",
+            "description": "",
+            "highlights": [],
+            "url": ""
+        },
+        {
+            "name": "Eagle Knight Paradox",
+            "startDate": "",
+            "endDate": "",
+            "description": "",
+            "highlights": [],
+            "url": ""
+        },
+        {
+            "name": "Kitchen Chaos Control",
+            "startDate": "",
+            "endDate": "",
+            "description": "",
+            "highlights": [],
+            "url": ""
+        },
+        {
+            "name": "Resume",
+            "startDate": "",
+            "endDate": "",
+            "description": "",
+            "highlights": [],
+            "url": ""
+        },
+        {
+            "name": "Portfolio",
+            "startDate": "",
+            "endDate": "",
+            "description": "",
+            "highlights": [],
+            "url": ""
+        },
+        {
+            "name": "Course Platform",
+            "startDate": "",
+            "endDate": "",
+            "description": "",
+            "highlights": [],
+            "url": ""
+        }
+    ]
+}
