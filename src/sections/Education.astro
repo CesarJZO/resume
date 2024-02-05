@@ -1,0 +1,29 @@
+---
+import Section from "@/components/Section.astro";
+import ExperienceEntry from "@/components/ExperienceEntry.astro";
+
+import { education } from "@resume";
+---
+
+<Section title="Education">
+  <ul>
+    {
+      education.map(({ institution, startDate, endDate, area }) => (
+        <ExperienceEntry
+          title={institution}
+          startDate={new Date(startDate)}
+          endDate={endDate ? new Date(endDate) : undefined}
+          summary={area}
+        />
+      ))
+    }
+  </ul>
+</Section>
+
+<style>
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+  }
+</style>

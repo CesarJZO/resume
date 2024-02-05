@@ -1,25 +1,38 @@
 ---
 interface Props {
-  position: string;
-  name?: string;
-  url?: string;
-  timeRange: string;
+  title: string;
   summary: string;
+  subtitle?: string;
+  startDate: Date;
+  endDate?: Date;
+  includeMonth?: boolean;
+  url?: string;
 }
 
-const { position, name, url, timeRange, summary } = Astro.props;
+const { title, subtitle, url, startDate, endDate, summary, includeMonth } =
+  Astro.props;
+
+const startYear = startDate.getFullYear();
+const startMonth = startDate.toLocaleString("default", { month: "short" });
+const endYear = endDate ? endDate.getFullYear() : "Present";
+const endMonth = endDate
+  ? endDate.toLocaleString("default", { month: "short" })
+  : "";
+const range = includeMonth
+  ? `${startMonth} ${startYear} - ${endMonth} ${endYear}`
+  : `${startYear} - ${endYear}`;
 ---
 
 <article>
   <header>
     <div>
-      <h3>{position}</h3>
+      <h3>{title}</h3>
       <h4>
-        <a href={url}>{name}</a>
+        <a href={url}>{subtitle}</a>
       </h4>
     </div>
 
-    <time>{timeRange}</time>
+    <time>{range}</time>
   </header>
 
   <footer>

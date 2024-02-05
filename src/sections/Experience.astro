@@ -8,29 +8,19 @@ import { work } from "@resume";
 <Section title="Work Experience">
   <ul>
     {
-      work.map(({ position, name, startDate, endDate, summary, url }) => {
-        const sd = new Date(startDate);
-        const startYear = sd.getFullYear();
-        const startMonth = sd.toLocaleString("default", { month: "short" });
-        const ed = endDate ? new Date(endDate) : new Date();
-        const endYear = endDate ? ed.getFullYear() : "Present";
-        const endMonth = endDate
-          ? ed.toLocaleString("default", { month: "short" })
-          : "";
-        const range = `${startMonth} ${startYear} - ${endMonth} ${endYear}`;
-
-        return (
-          <li>
-            <ExperienceEntry
-              position={position}
-              name={name}
-              timeRange={range}
-              summary={summary}
-              url={url || undefined}
-            />
-          </li>
-        );
-      })
+      work.map(({ position, name, startDate, endDate, summary, url }) => (
+        <li>
+          <ExperienceEntry
+            title={position}
+            subtitle={name}
+            startDate={new Date(startDate)}
+            endDate={endDate ? new Date(endDate) : undefined}
+            summary={summary}
+            url={url || undefined}
+            includeMonth
+          />
+        </li>
+      ))
     }
   </ul>
 </Section>
