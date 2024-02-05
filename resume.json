@@ -45,7 +45,7 @@
             "url": "https://playstormstudios.com/",
             "startDate": "2023-12-11",
             "endDate": null,
-            "summary": "Had to manage a team of 5 programmers and 3 artists. I was in charge of the game's development and the team's performance.",
+            "summary": "Managed a team of 5 programmers and 3 artists. I was in charge of the game's development and the team's performance.",
             "highlights": [
                 "Improved the team's performance",
                 "Made long-term planning and design"
@@ -269,51 +269,62 @@
     ],
     "projects": [
         {
+            "name": "Resume",
+            "startDate": "2024-02-03",
+            "endDate": "2024-02-04",
+            "description": "This very resume! Made with Astro and plain HTML/CSS",
+            "highlights": ["Astro", "HTML/CSS", "TypeScript"],
+            "url": "https://resume.cesarjzo.dev"
+        },
+        {
             "name": "Not Another Platformer, Please",
-            "startDate": "",
-            "endDate": "",
-            "description": "",
-            "highlights": [],
-            "url": ""
+            "startDate": "2023-07-14",
+            "endDate": "2023-08-30",
+            "description": "A game that turned out to be a template for all my future projects",
+            "highlights": [
+                "Unity",
+                "C#",
+                "Game Architecture",
+                "Design Patterns"
+            ],
+            "url": "https://github.com/CesarJZO/Not-Another-Platformer-Please"
         },
         {
             "name": "Eagle Knight Paradox",
-            "startDate": "",
-            "endDate": "",
-            "description": "",
-            "highlights": [],
-            "url": ""
-        },
-        {
-            "name": "Kitchen Chaos Control",
-            "startDate": "",
-            "endDate": "",
-            "description": "",
-            "highlights": [],
-            "url": ""
-        },
-        {
-            "name": "Resume",
-            "startDate": "",
-            "endDate": "",
-            "description": "",
-            "highlights": [],
-            "url": ""
+            "startDate": "2022-01-15",
+            "endDate": null,
+            "description": "A commercial game which I been developing in Playstorm Studios. To be released",
+            "highlights": [
+                "Unity",
+                "C#",
+                "Project Management",
+                "Game Design",
+                "Team Management"
+            ],
+            "url": "https://playstormstudios.com/"
         },
         {
             "name": "Portfolio",
-            "startDate": "",
-            "endDate": "",
-            "description": "",
-            "highlights": [],
-            "url": ""
+            "startDate": "2023-12-18",
+            "endDate": null,
+            "description": "My portfolio website, including a blog and showcases of my projects. Made with Astro and plain HTML/CSS",
+            "highlights": ["Astro", "HTML/CSS", "TypeScript"],
+            "url": "https://cesarjzo.dev"
         },
         {
             "name": "Course Platform",
-            "startDate": "",
-            "endDate": "",
-            "description": "",
-            "highlights": [],
+            "startDate": "2023-08-28",
+            "endDate": null,
+            "description": "A platform for online courses. My final project of my software engineering class",
+            "highlights": ["React", "ASP.NET", "Stripe", "PostgreSQL", "e-commerce"],
+            "url": "https://loading.net"
+        },
+        {
+            "name": "Kitchen Chaos Control",
+            "startDate": "2023-02-18",
+            "endDate": "2023-04-23",
+            "description": "A kitchen simulator. My final project of Code Monkey's full course",
+            "highlights": ["Unity", "C#", "Course Project"],
             "url": ""
         }
     ]
