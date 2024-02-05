@@ -118,7 +118,7 @@
         {
             "institution": "Instituto Tecnológico de Saltillo",
             "url": "https://saltillo.tecnm.mx/",
-            "area": "Computer Systems Engineering",
+            "area": "Balchelor's Degree in Computer Systems Engineering",
             "studyType": "Bachelor",
             "startDate": "2019-08-24",
             "endDate": null,
@@ -140,47 +140,6 @@
                 "TED-2302 - Cloud Computing",
                 "TED-2304 - Data Science",
                 "TED-2305 - Mobile Development"
-            ]
-        },
-        {
-            "institution": "Doměstika",
-            "url": "https://www.domestika.org/",
-            "area": "Game Development",
-            "studyType": "Online Course",
-            "startDate": "2021-06-01",
-            "endDate": "2021-12-20",
-            "score": null,
-            "courses": [
-                "Introduction to Unity for 2D Games"
-            ]
-        },
-        {
-            "institution": "Udemy",
-            "url": "https://www.udemy.com/",
-            "area": "Web/Game Development",
-            "studyType": "Online Course",
-            "startDate": "2023-06-01",
-            "endDate": null,
-            "score": null,
-            "courses": [
-                "Unity Dialogue & Quests: Intermediate C# Game Coding",
-                "Learn to build an e-commerce store with .NET, React & Redux",
-                "Developing Apps using React 17 and ASP.NET Core 5"
-            ]
-        },
-        {
-            "institution": "YouTube",
-            "url": "https://www.youtube.com/",
-            "area": "Web/Game Development",
-            "studyType": "Online Course",
-            "startDate": "2022-01-01",
-            "endDate": null,
-            "score": null,
-            "courses": [
-                "Code Monkey - Learn Unity Beginner/Intermediate 2023",
-                "midudev - Astro course with projects",
-                "midudev - CSS course from scratch",
-                "midudev - HTML Course from Scratch: SEO, Semantics, and More"
             ]
         }
     ],
