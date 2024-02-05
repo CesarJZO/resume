@@ -6,10 +6,10 @@ import Profile from "@/sections/Profile.astro";
 import Experience from "@/sections/Experience.astro";
 
 import { basics } from "@resume";
-const { name, label } = basics;
+const { name, label, summary } = basics;
 ---
 
-<Layout title=`${name} | ${label}` lang="en">
+<Layout title=`${name} | ${label}` lang="en" description={summary}>
   <main>
     <Profile />
     <About />
