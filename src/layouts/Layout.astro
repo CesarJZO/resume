@@ -23,10 +23,6 @@ const { title, lang } = Astro.props;
 </html>
 
 <style is:global>
-  :root {
-    color-scheme: dark;
-  }
-
   html {
     font-family:
       Menlo,
@@ -82,18 +78,19 @@ const { title, lang } = Astro.props;
   }
 
   h2 {
-    margin: 1rem 0;
+    margin-block: 1rem;
   }
 
   p {
-    color: #666;
-    line-height: 1.5;
+    color: #777;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
     margin: 0;
     text-wrap: pretty;
   }
 
-  img {
-    max-width: 100%;
+  span {
+    color: #777;
   }
 
   .print {
