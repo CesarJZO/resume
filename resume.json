@@ -170,44 +170,59 @@
     ],
     "skills": [
         {
-            "name": "Game Development",
+            "name": "Unity",
             "level": "Expert",
-            "keywords": [
-                "Unity",
-                "C#",
-                "MonoGame"
-            ]
+            "keywords": []
         },
         {
-            "name": "Front-end Development",
-            "level": "Advanced",
-            "keywords": [
-                "Astro",
-                "React",
-                "HTML",
-                "CSS",
-                "TypeScript"
-            ]
+            "name": "C#",
+            "level": "Expert",
+            "keywords": []
         },
         {
-            "name": "Project Management",
-            "level": "Intermediate",
-            "keywords": [
-                "Agile",
-                "Cascade",
-                "Scrum",
-                "Kanban"
-            ]
+            "name": "Astro",
+            "level": "Expert",
+            "keywords": []
         },
         {
-            "name": "Back-end Development",
-            "level": "Beginner",
-            "keywords": [
-                "ASP.NET",
-                "Entity Framework",
-                "Express",
-                "PostgreSQL"
-            ]
+            "name": "React",
+            "level": "Expert",
+            "keywords": []
+        },
+        {
+            "name": "HTML/CSS",
+            "level": "Expert",
+            "keywords": []
+        },
+        {
+            "name": "TypeScript",
+            "level": "Expert",
+            "keywords": []
+        },
+        {
+            "name": "Godot",
+            "level": "Expert",
+            "keywords": []
+        },
+        {
+            "name": "MonoGame",
+            "level": "Expert",
+            "keywords": []
+        },
+        {
+            "name": "ASP.NET",
+            "level": "Expert",
+            "keywords": []
+        },
+        {
+            "name": "PostgreSQL",
+            "level": "Expert",
+            "keywords": []
+        },
+        {
+            "name": "Linux",
+            "level": "Expert",
+            "keywords": []
         }
     ],
     "languages": [
