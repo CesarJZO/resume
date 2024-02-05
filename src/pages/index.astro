@@ -3,20 +3,28 @@ import Layout from "@/layouts/Layout.astro";
 
 import About from "@/sections/About.astro";
 import Profile from "@/sections/Profile.astro";
+import Experience from "@/sections/Experience.astro";
 
 import { basics } from "@resume";
-const { name } = basics;
+const { name, label } = basics;
 ---
 
-<Layout title=`${name}'s Resume` lang="en">
+<Layout title=`${name} | ${label}` lang="en">
   <main>
     <Profile />
     <About />
+    <Experience />
   </main>
 </Layout>
 
 <style>
   main {
     padding: 4rem;
+  }
+
+  @media (max-width: 768px) {
+    main {
+      padding: 2rem;
+    }
   }
 </style>

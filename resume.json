@@ -1,7 +1,7 @@
 {
     "basics": {
         "name": "César Zárate",
-        "label": "Web and Game Developer determined to build quality and clean solutions.",
+        "label": "Web and Game Developer determined to build quality and clean solutions",
         "image": "me.webp",
         "email": "cesarjzo@outlook.com",
         "phone": "(844) 543-4955",
@@ -29,14 +29,26 @@
     },
     "work": [
         {
-            "name": "Playstorm Studios",
-            "position": "Gameplay Programmer",
-            "url": "https://playstormstudios.com/",
-            "startDate": "2022-01-15",
-            "endDate": "2023-01-25",
-            "summary": "Developed enemies for the game using state machines, including a fully featured final boss.",
+            "name": "Justia",
+            "position": "Web Services Intern",
+            "url": "https://justia.com/",
+            "startDate": "2024-01-22",
+            "endDate": null,
+            "summary": "Worked on the company's website, including the development of new features and the maintenance of the existing ones. I also worked on the company's internal tools.",
             "highlights": [
-                "Made a final boss"
+                "Learned time management"
+            ]
+        },
+        {
+            "name": "Playstorm Studios",
+            "position": "Project Manager",
+            "url": "https://playstormstudios.com/",
+            "startDate": "2023-12-11",
+            "endDate": null,
+            "summary": "Had to manage a team of 5 programmers and 3 artists. I was in charge of the game's development and the team's performance.",
+            "highlights": [
+                "Improved the team's performance",
+                "Made long-term planning and design"
             ]
         },
         {
@@ -79,25 +91,13 @@
         },
         {
             "name": "Playstorm Studios",
-            "position": "Project Manager",
+            "position": "Gameplay Programmer",
             "url": "https://playstormstudios.com/",
-            "startDate": "2023-12-11",
-            "endDate": null,
-            "summary": "Had to manage a team of 5 programmers and 3 artists. I was in charge of the game's development and the team's performance.",
+            "startDate": "2022-01-15",
+            "endDate": "2023-01-25",
+            "summary": "Developed enemies for the game using state machines, including a fully featured final boss.",
             "highlights": [
-                "Improved the team's performance",
-                "Made long-term planning and design"
-            ]
-        },
-        {
-            "name": "Justia",
-            "position": "Web Services Intern",
-            "url": "https://justia.com/",
-            "startDate": "2024-01-22",
-            "endDate": null,
-            "summary": "Worked on the company's website, including the development of new features and the maintenance of the existing ones. I also worked on the company's internal tools.",
-            "highlights": [
-                "Learned time management"
+                "Made a final boss"
             ]
         }
     ],
