@@ -1,0 +1,58 @@
+---
+interface Props {
+  position: string;
+  name?: string;
+  url?: string;
+  timeRange: string;
+  summary: string;
+}
+
+const { position, name, url, timeRange, summary } = Astro.props;
+---
+
+<article>
+  <header>
+    <div>
+      <h3>{position}</h3>
+      <h4>
+        <a href={url}>{name}</a>
+      </h4>
+    </div>
+
+    <time>{timeRange}</time>
+  </header>
+
+  <footer>
+    <p>{summary}</p>
+  </footer>
+</article>
+
+<style>
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 4px;
+  }
+
+  h3 {
+    font-weight: 600;
+    font-size: 1rem;
+  }
+
+  h4 {
+    font-family: inherit;
+    font-weight: 450;
+    font-size: 0.9rem;
+    margin-top: 4px;
+  }
+
+  time {
+    font-size: 0.85rem;
+    font-weight: 400;
+  }
+
+  p {
+    font-size: 0.8rem;
+  }
+</style>
