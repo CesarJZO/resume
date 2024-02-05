@@ -2,9 +2,10 @@
 import Layout from "@/layouts/Layout.astro";
 
 import About from "@/sections/About.astro";
-import Profile from "@/sections/Profile.astro";
-import Experience from "@/sections/Experience.astro";
 import Education from "@/sections/Education.astro";
+import Experience from "@/sections/Experience.astro";
+import Profile from "@/sections/Profile.astro";
+import Skills from "@/sections/Skills.astro";
 
 import { basics } from "@resume";
 const { name, label, summary } = basics;
@@ -16,12 +17,15 @@ const { name, label, summary } = basics;
     <About />
     <Experience />
     <Education />
+    <Skills />
   </main>
 </Layout>
 
 <style>
   main {
-    padding: 4rem;
+    padding-block: 4rem;
+    max-width: 720px;
+    margin: 0 auto;
   }
 
   @media (max-width: 768px) {
