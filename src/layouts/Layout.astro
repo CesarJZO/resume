@@ -1,7 +1,7 @@
 ---
 interface Props {
   title: string;
-  lang: string;
+  lang: "en" | "es";
 }
 
 const { title, lang } = Astro.props;
@@ -43,11 +43,17 @@ const { title, lang } = Astro.props;
 
   a {
     text-decoration: none;
+    color: #777;
+  }
+
+  a:hover {
+    color: #333;
+    transition: all 0.3s ease;
   }
 
   ul {
     list-style-type: none;
-    margin: 0;
+    padding: 0;
   }
 
   *,
@@ -61,7 +67,8 @@ const { title, lang } = Astro.props;
   h3,
   h4,
   h5,
-  h6 {
+  h6,
+  time {
     margin: 0;
     font-family:
       system-ui,
@@ -82,7 +89,7 @@ const { title, lang } = Astro.props;
   }
 
   p {
-    color: #777;
+    color: #666;
     font-size: 0.875rem;
     line-height: 1.25rem;
     margin: 0;
@@ -90,7 +97,7 @@ const { title, lang } = Astro.props;
   }
 
   span {
-    color: #777;
+    color: #888;
   }
 
   .print {
